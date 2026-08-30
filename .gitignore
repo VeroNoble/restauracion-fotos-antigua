@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datos e imágenes generadas
+dataset_imagenes/
+dataset_originales/
+dataset_danadas/
+dataset_mascaras/
+
+# Sistema
+.DS_Store
