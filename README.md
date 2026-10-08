@@ -43,4 +43,4 @@ Este notebook fue desarrollado en Google Colab y usa rutas de Google Drive perso
 pip install -r requirements.txt
 ```
 
-y adaptar las rutas de `ruta_zip` (dataset de origen) a tu propio Google Drive o entorno local. El entrenamiento completo (30 épocas) requiere GPU.
+descargar el dataset de Kaggle y ajustar la variable `CARPETA_PROYECTO` (al inicio del notebook) a la carpeta de tu Google Drive o entorno local donde esté el ZIP. El entrenamiento completo (30 épocas) requiere GPU.
