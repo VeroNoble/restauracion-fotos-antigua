@@ -4,7 +4,7 @@ Trabajo práctico de la Tecnicatura Superior en Ciencia de Datos e IA.
 
 ## Objetivo
 
-Entrenar un modelo de deep learning capaz de restaurar fotografías con daño típico de fotos antiguas (grietas, manchas de humedad, viraje a sepia o blanco y negro), a partir de pares de imágenes dañadas/originales generados de forma sintética.
+Entrenar un modelo de deep learning capaz de eliminar el daño físico típico de fotos antiguas (grietas y manchas de humedad) en fotografías a color, en blanco y negro o en sepia, a partir de pares de imágenes dañadas/originales generados de forma sintética.
 
 ## Datos
 
@@ -19,7 +19,8 @@ Dataset [CelebFaces Dataset - 64x64](https://www.kaggle.com/datasets/arnrob/cele
 
 ## Resultados
 
-El modelo entrenado logra restaurar razonablemente el color y atenuar grietas/manchas en fotos con daño simulado, generalizando a imágenes del conjunto de test. El repositorio incluye el modelo ya entrenado (`modelo_entrenado.keras`) para poder probarlo directamente sin necesidad de reentrenar.
+El modelo entrenado logra atenuar grietas y manchas en fotos con daño simulado, conservando el tono original de la imagen (color, blanco y negro o sepia). 
+El repositorio incluye el modelo ya entrenado (`modelo_entrenado.keras`) para poder probarlo directamente sin necesidad de reentrenar.
 
 ## Herramientas
 
